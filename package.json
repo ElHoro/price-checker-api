@@ -1,0 +1,22 @@
+{
+  "name": "price-checker",
+  "version": "0.1.1",
+  "description": "Proyecto de Api-Restful para checar precios de varios productos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Huitrado",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.1",
+    "mongoose-in-memory-autocomplete": "^1.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
