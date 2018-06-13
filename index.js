@@ -1,5 +1,8 @@
 'use strict'
 
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').load();
+}
 var mongoose = require('mongoose');
 var app = require('./app.js');
 var port = process.env.PORT || 3678;
